@@ -1,0 +1,18 @@
+{
+    "name": "demian/blockchain",
+    "authors": [
+        {
+            "name": "demian",
+            "email": "demyan.shtepa@gmail.com"
+        }
+    ],
+    "require": {
+      "ext-json": "*",
+        "symfony/polyfill-php80": "^1.22"
+    },
+    "autoload": {
+        "psr-4": {
+            "BlockChain\\": "src/"
+        }
+    }
+}
